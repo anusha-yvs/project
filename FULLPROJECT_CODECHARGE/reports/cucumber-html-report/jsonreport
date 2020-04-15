@@ -1,0 +1,670 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Login to the TaskManager with valid data and invalid data",
+        "description": "",
+        "id": "taskmanager-website;login-to-the-taskmanager-with-valid-data-and-invalid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14789099700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Open the  taskmanager website  Browser",
+            "match": {
+              "location": "taskmanagerloginstep.launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 222163500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter the \"admin\" and \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 11
+                },
+                {
+                  "val": "admin",
+                  "offset": 23
+                }
+              ],
+              "location": "taskmanagerloginstep.enter_Username_and_Password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3448585700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on Login button1",
+            "match": {
+              "location": "taskmanagerloginstep.click_on_Login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@tc_01_login"
+          },
+          {
+            "line": 1,
+            "name": "@taskmanager"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Login to the TaskManager with valid data and invalid data",
+        "description": "",
+        "id": "taskmanager-website;login-to-the-taskmanager-with-valid-data-and-invalid-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11899229700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Open the  taskmanager website  Browser",
+            "match": {
+              "location": "taskmanagerloginstep.launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 257738500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter the \"admin1\" and \"admiin2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin1",
+                  "offset": 11
+                },
+                {
+                  "val": "admiin2",
+                  "offset": 24
+                }
+              ],
+              "location": "taskmanagerloginstep.enter_Username_and_Password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2247361200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on Login button1",
+            "match": {
+              "location": "taskmanagerloginstep.click_on_Login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@tc_01_login"
+          },
+          {
+            "line": 1,
+            "name": "@taskmanager"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "addTask to the Application",
+        "description": "",
+        "id": "taskmanager-website;addtask-to-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12209987800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "launch the  website in the browser",
+            "match": {
+              "location": "addtask_step.launch_the_Website_in_the_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1906886600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click on addTask",
+            "match": {
+              "location": "addtask_step.click_on_the_addNewTask()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10431501000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "enter all the details",
+            "match": {
+              "location": "addtask_step.enter_all_the_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3218220100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "click on Add button",
+            "match": {
+              "location": "addtask_step.click_on_the_Add_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@tc_02_addtaskonly"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "searching the entered Task",
+        "description": "",
+        "id": "taskmanager-website;searching-the-entered-task",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12023031800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "open the prequisite browser",
+            "match": {
+              "location": "searchtaskstep.launch_the_Website_in_the_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2958615700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Click On Task List",
+            "match": {
+              "location": "searchtaskstep.click_On_Task_List()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 564385600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "enter the Task details",
+            "match": {
+              "location": "searchtaskstep.select_the_task()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2295756000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "click on search button1",
+            "match": {
+              "location": "searchtaskstep.click_on_the_Search_button1()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@tc_03_searchtask"
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Add new employee in TaskManager website",
+        "description": "",
+        "id": "taskmanager-website;add-new-employee-in-taskmanager-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13615346800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Launch the Website in the Browser1",
+            "match": {
+              "location": "addemployee_stepdef.launch_the_Website_in_the_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 631765700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on administration",
+            "match": {
+              "location": "addemployee_stepdef.i_click_on_administration()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 645325500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click on employees",
+            "match": {
+              "location": "addemployee_stepdef.i_click_on_employees()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1321140900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on add new employee",
+            "match": {
+              "location": "addemployee_stepdef.i_click_on_add_new_employee()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@tc_04_Addemployee"
+          }
+        ]
+      },
+      {
+        "line": 40,
+        "name": "Add employee details in TaskManager website",
+        "description": "",
+        "id": "taskmanager-website;add-employee-details-in-taskmanager-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13878779100,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Launch the Website in the Browser",
+            "match": {
+              "location": "employeedetalis_stepdef.launch_the_Website_in_the_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4387102400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I enter all the details of employee",
+            "match": {
+              "location": "employeedetalis_stepdef.I_enter_all_the_details_of_employee()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1900558900,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I click on Add button",
+            "match": {
+              "location": "employeedetalis_stepdef.I_click_on_Add_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 39,
+            "name": "@tc_05_employeedetails"
+          }
+        ]
+      },
+      {
+        "line": 48,
+        "name": "Add Project to the TaskManager Website",
+        "description": "",
+        "id": "taskmanager-website;add-project-to-the-taskmanager-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12049296400,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Open the Website in the Browser",
+            "match": {
+              "location": "Addprojectstep2.open_the_Website_in_the_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1221720400,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "click on the administration",
+            "match": {
+              "location": "Addprojectstep2.click_on_the_administration()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1827201600,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Click on the Projects",
+            "match": {
+              "location": "Addprojectstep2.click_on_the_Projects()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 814091300,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Click on the Add New Project",
+            "match": {
+              "location": "Addprojectstep2.click_on_the_Add_New_Project()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 186468900,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Enter the Project Name",
+            "match": {
+              "location": "Addprojectstep2.enter_the_Project_Name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1736409800,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Click on the Add Button",
+            "match": {
+              "location": "Addprojectstep2.click_on_the_Add_Button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 47,
+            "name": "@tc_06_addproject"
+          }
+        ]
+      },
+      {
+        "line": 58,
+        "name": "Search the  New Project",
+        "description": "",
+        "id": "taskmanager-website;search-the--new-project",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12236541600,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "Open the website  Browser",
+            "match": {
+              "location": "searchprojectstep.open_the_website_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2805805200,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Click On Task List1",
+            "match": {
+              "location": "searchprojectstep.click_On_Task_List()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 553288500,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Select the Newly Entered Project",
+            "match": {
+              "location": "searchprojectstep.select_the_Newly_Entered_Project()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1770440800,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Click on the Search button",
+            "match": {
+              "location": "searchprojectstep.click_on_the_Search_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 57,
+            "name": "@tc_07_searchnewproject"
+          }
+        ]
+      },
+      {
+        "line": 66,
+        "name": "Add Task to the  Newly entered Project",
+        "description": "",
+        "id": "taskmanager-website;add-task-to-the--newly-entered-project",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11794524000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "Launch the Website in the Browser2",
+            "match": {
+              "location": "add_newtask_step.Launch_the_Website_in_the_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2065669000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "Click on the AddNewTask",
+            "match": {
+              "location": "add_newtask_step.click_on_the_AddNewTask()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10648331300,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "Enter all the details",
+            "match": {
+              "location": "add_newtask_step.Enter_all_the_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2412868100,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Click on the Add button1",
+            "match": {
+              "location": "add_newtask_step.click_on_the_Add_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 65,
+            "name": "@tc_8_addtasktonewproject"
+          }
+        ]
+      },
+      {
+        "line": 74,
+        "name": "logout the page",
+        "description": "",
+        "id": "taskmanager-website;logout-the-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13949209700,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "Launch the Website Browser",
+            "match": {
+              "location": "logoutstep.Launch_the_Website_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 662540500,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "click administration",
+            "match": {
+              "location": "logoutstep.click_administration()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1850015700,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "click the logout",
+            "match": {
+              "location": "logoutstep.click_the_logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 73,
+            "name": "@tc_9_logout"
+          }
+        ]
+      }
+    ],
+    "name": "taskmanager website",
+    "description": "",
+    "id": "taskmanager-website",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/testcase.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@taskmanager"
+      }
+    ]
+  }
+]
